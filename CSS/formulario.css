@@ -1,0 +1,52 @@
+.formulario{
+    width: 45%;
+    height: 280px;
+    border: 5px solid black;
+    margin-top: 50px;
+    margin-left: 30%;
+    background-color: #E5E8E8 ;
+    position: relative;
+  }
+  .formulario p{
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #E5E8E8;
+  }
+  .formulario a{
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 80%;
+    border: 2px;
+    background-color: #999999;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+  }
+  .formulario a:hover{
+    background-color: #80DEEA ;
+  }
+  .pregunta{
+    position: absolute;
+    left: 5px;
+    width: 35%;
+    font-size: 20px;
+    background-color: #E5E8E8;
+  }
+  .pregunta li{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+  }
+  .respuesta{
+    position: absolute;
+    left: 38%;
+    width: 50%;
+    font-size: 20px;
+    background-color: #E5E8E8;
+  }
+  .respuesta li{
+    border: 1px solid black;
+    background-color: white;
+    color: #999999;
+  }

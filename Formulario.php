@@ -4,7 +4,8 @@
     <meta charset="UTF-8"> <!--Esta parte del código me permite que se vean las tildes de forma adecuada-->
     <title>Ropa LP - Solicitud de Servicio</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="estilos.css">
+    <head><link rel="stylesheet" href="CSS/formulario.css"></head>
+    <head><link rel="stylesheet" href="CSS/ppal.css"></head>
   </head>
   <body>
     <header>

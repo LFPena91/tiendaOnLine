@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300&display=swap');
+
+* { /* Fortamto general */
+  background: white;
+  font-size: 16px;
+  font-family: 'Playpen Sans', cursive;
+}
+/* formato encabezado*/
+header div {
+  font-size: 3em;
+  font-palette: dark;
+  margin-left: 10px;
+}
+ul, ol{
+  list-style: none;
+}
+.menu{
+  margin-left: 250px;
+}
+.menu li a{
+  background: #999999;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+.menu li li{
+  background: #999999;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+.menu li a:hover{
+  background: #80DEEA;
+}
+.menu > li{
+  display: inline-block;
+}
+.menu li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+.menu li:hover > ul{
+  display: block;
+}
+.main{
+  float: left;
+  width: 75%;
+}
+.main h2{
+  color: white;
+  background: black;
+  font-size: 2em;
+  padding: 10px;
+  /* border */
+}
+.main h4{
+  color: black;
+  background: white;
+  font-size: 1.5em;
+  padding: 20px;
+}
+.main p {
+  color: black;
+  padding: 5px;
+}
+/* Formato pie de pagina*/
+footer {
+  clear: both;
+  width: 100%;
+  background: grey;
+  font-size: small;
+  text-align: center;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+footer p{
+  background: grey;
+}
+/* Formato Lateral*/
+.lateral{
+  float: left;
+  top: 150px;
+  width: 100%;
+  max-width: 250px;
+  background: black;
+  height: 100vh;
+}
+.lateral nav{
+  transform: translateY(5%);
+}
+.lateral nav a{
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #c7c7c7;
+  background: black;
+}
+.lateral nav a:hover{
+  background: #80DEEA;
+  color: black;
+}
+.lateral img{
+  background: none;
+  display: none;
+}
+.lateral nav a:hover + img{
+  display: block;
+}

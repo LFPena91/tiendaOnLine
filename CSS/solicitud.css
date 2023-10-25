@@ -1,0 +1,33 @@
+.Solicitud{
+  width: 45%;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 250px;
+  border-radius: 5%;
+  padding: 20px;
+  background: #F2F3F4;
+}
+.Solicitud form{
+  background: #F2F3F4;
+}
+.Solicitud label{
+  display: block;
+  width: 100%;
+  background: #F2F3F4;
+}
+.Solicitud input{
+  margin-bottom: 20px;
+  width: 100%;
+  padding: auto;
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+.Solicitud button{
+  display: line;
+  position: relative;
+}
+.Solicitud button:hover{
+  background: #80DEEA;
+  color: black;
+  border-color: #80DEEA;
+}
