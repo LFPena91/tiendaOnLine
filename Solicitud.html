@@ -11,7 +11,7 @@
     <header>
       <div>
         <!--Inserto el logotipo de la pagina y el nombre-->
-        <a href="Ppal.html"><img src="img/logo.png" alt="Logotipo LP" title="Logotipo LP" width="70"></a>  ROPA DEPORTIVA ON-LINE
+        <a href="Ppal.html"><img src="img/Fondo.png" alt="Logotipo LP" title="Logotipo LP" width="70"></a>  ROPA DEPORTIVA ON-LINE
       </div>
       <nav>
         <ul class="menu">
@@ -45,6 +45,9 @@
         <label for="apellidos">Apellidos: *</label>                           
           <input type="text" name="apellidos" placeholder="Apellido(s):" required/>
         
+        <label for="correo">Correo Electronico: *</label>                           
+          <input type="email" name="correo" placeholder="ejemplo@ejemplo.com" required/>
+          
         <label for="celular">Celular: *</label>
           <input type="tel" name="celular" placeholder="000-000-0000"  
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
@@ -56,10 +59,10 @@
             <option value="Pedido Mayorista"></option>
             <option value="Devolución"></option>
           </datalist>
-               
+          
         <button type="submit">Enviar</button>
-        <button type="reset">Cancelar</button>
-               
+        <button type="reset"><a href="Ppal.html">Cancelar</a></button>
+        
       </form>
     </div>    
   </body>

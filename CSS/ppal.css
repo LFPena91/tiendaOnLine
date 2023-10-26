@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300&display=swap');
 
 * { /* Fortamto general */
-  background: white;
   font-size: 16px;
   font-family: 'Playpen Sans', cursive;
 }
@@ -58,7 +57,6 @@ ul, ol{
 }
 .main h4{
   color: black;
-  background: white;
   font-size: 1.5em;
   padding: 20px;
 }
@@ -107,6 +105,7 @@ footer p{
 .lateral img{
   background: none;
   display: none;
+  margin-left: 25px;
 }
 .lateral nav a:hover + img{
   display: block;

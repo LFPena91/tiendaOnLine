@@ -11,13 +11,14 @@
     <header>
       <div>
         <!--Inserto el logotipo de la pagina y el nombre-->
-        <a href="Ppal.html"><img src="img/logo.png" alt="Logotipo LP" title="Logotipo LP" width="70"></a>  ROPA DEPORTIVA ON-LINE
+        <a href="Ppal.html"><img src="img/Fondo.png" alt="Logotipo LP" title="Logotipo LP" width="70"></a>  ROPA DEPORTIVA ON-LINE
       </div>
     </header>
     <p>
       <?php
         $nombre = $_POST['nombre'];
         $apellidos = $_POST['apellidos'];
+        $correo = $_POST['correo'];
         $celular = $_POST['celular'];
         $servicio = $_POST['servicio'];
 
@@ -27,12 +28,14 @@
               <ul class = 'pregunta'>
                 <li>Nombre(s): </li>
                 <li>Apellido(s): </li>
+                <li>Correo electrónico: </li>
                 <li>Celular: </li>
                 <li>Servicio que solicita: </li>
               </ul>
               <ul class = 'respuesta'>
                 <li>". $nombre. "</li>
                 <li>". $apellidos. "</li>
+                <li>". $correo. "</li>
                 <li>". $celular. "</li>
                 <li>". $servicio. "</li>
               </ul>
