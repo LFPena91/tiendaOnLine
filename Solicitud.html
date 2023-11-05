@@ -49,8 +49,8 @@
           <input type="email" name="correo" placeholder="ejemplo@ejemplo.com" required/>
           
         <label for="celular">Celular: *</label>
-          <input type="tel" name="celular" placeholder="000-000-0000"  
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+          <input type="number" name="celular" placeholder="3001234567"  
+            min="3000000000" max="4000000000" required/>
         
         <label for="servicio">Servicio que solicita: *</label>
           <input list="servicios" name="servicio" required/>
